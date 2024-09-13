@@ -6,7 +6,7 @@ body{
 
 #logo {
     margin: 0px;
-    font-family: "Fredoka One", sans-serif;
+    font-family: Helvetica, sans-serif;
     width: 20%;
 }
 
@@ -15,7 +15,7 @@ ul {
 }
 
 body > header{
-    background-color: pink;
+    background-color: rgb(208, 46, 73);
     color: white;
     display: flex;
     height:20vh;
@@ -26,16 +26,16 @@ body > header{
     display: flex;
 }
 
+
 #nav-ul > li{
 padding: 8px;
 margin: 16px;
 }
-
-
 body>header>nav>ul {
     list-style: none;
     text-decoration: none;
 }
+
 
 .navbutton{
 text-decoration:none;
@@ -44,42 +44,43 @@ padding: 16px;
 border: 1px solid white;
 border-radius: 5%;
 }
-
-body> main article{
-    width: 70%;
-    margin: auto;
+img{
+    border-radius: 10%;
+    
 }
-
-#main-content{
+#content-wrapper{
     display: flex;
-    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
-#main-content> div{
-    width: 70%;
+body> main article{
+   flex: 3;
+   padding-right: 20px;
+}
+aside{
+    flex: 1;
+    background-color: rgb(208, 46, 73);
+    padding: 15px;
+    border: 1px solid;
+    width: 250px;
 }
 
 form{
     text-align: center;
+    color: rgb(208, 46, 73);
+}
+#title{ 
+    color:rgb(208, 46, 73)
 }
 h2{
     text-align: center;
-}
-body> footer{
-    background-color: pink;
-    display: flex;
+    color: white;
 }
 
-img{
-    border-radius: 30%;
-}
-#footer-ul{
-    display: flex;
-    list-style: none;
-}
-#footer-ul >div> li{
-    margin-left: 15px;
-}
-#footer-ul>div> li>a{
-    text-decoration: none;
-    color: white;
+footer{
+ background-color: rgb(208, 46, 73);   
+ color: white;
+ display: flex;
+ justify-content:space-around;
 }
